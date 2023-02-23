@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+}
+
+.title{
+    
+    margin-right: 550px;
+    font-size: 30px;
+}
+.card{
+    background-color: black;
+    opacity: 85%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid orange;
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    
+}
+
+.heat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    direction: flex;
+    
+    font-size: 50px;
+}
+
+
+.nowDay{
+    
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    line-height: 54px;
+    margin-top: 5px;
+    
+}
+
+.city_minmax{
+    
+    display: flex;
+    flex-direction: column;
+    line-height: 54px;
+    margin-top: 5px
+}
+.city{
+    font-size: 40px;
+}
+.minMax{
+    font-size: 30px;
+}
+
+img{
+    width: 120px;
+    height: auto;
+
+}
+
+.search{
+    direction: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+    
+}
+
+#searchBar{
+    border: none;
+    background-color: white;
+    text-align: center;
+    height: 28px;
+    outline: none;
+}
+
+#searchBtn{
+    position: absolute;
+    border: none;
+    background-color: white;
+    height: 30px;
+    outline: none;
+    
+}
+
+#searchBtn:hover{
+    background-color: black;
+    color: white;
+}
